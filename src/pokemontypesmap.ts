@@ -91,4 +91,4 @@ export const pokemonTypesMap = [
     jaType: 'フェアリー',
     color: '#F0A0C0',
   }
-]
+];

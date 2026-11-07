@@ -4,7 +4,7 @@ import { useInfiniteQuery } from '@tanstack/react-query';
 import { apiQueryKeys } from '../queryKeys';
 import { fetchPokemonListWithJapaneseNames } from '../api/pokemonWithJapaneseName';
 import type { PokemonWithJapaneseName } from '../api/pokemonWithJapaneseName';
-import PokemonCard from '../conponents/PokemonCard';
+import PokemonCard from '../components/PokemonCard';
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 import { INITIAL_POKEMON_LIST_LIMIT } from '../config';
